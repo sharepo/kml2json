@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>30 สายรถบริการอุทยานวิทย์</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Untitled layer</name>
+			<Placemark>
+				<name>ตึก INC1</name>
+				<styleUrl>#icon-22-nodesc</styleUrl>
+				<Point>
+					<coordinates>100.603392,14.077198,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ด้านหลัง NECTEC</name>
+				<styleUrl>#icon-22-nodesc</styleUrl>
+				<Point>
+					<coordinates>100.601868,14.07769,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ด้านหลัง MTEC</name>
+				<styleUrl>#icon-22-nodesc</styleUrl>
+				<Point>
+					<coordinates>100.601925,14.078803,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ศูนย์ประชุม</name>
+				<styleUrl>#icon-22-nodesc</styleUrl>
+				<Point>
+					<coordinates>100.603301,14.079113,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>บ้านวิทย์</name>
+				<styleUrl>#icon-22-nodesc</styleUrl>
+				<Point>
+					<coordinates>100.603322,14.081264000000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>หอพักสวทช.</name>
+				<styleUrl>#icon-22-nodesc</styleUrl>
+				<Point>
+					<coordinates>100.602939,14.080395,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>MTEC PilotPant</name>
+				<styleUrl>#icon-22-nodesc</styleUrl>
+				<Point>
+					<coordinates>100.602099,14.080427,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>NECTEC PilotPant</name>
+				<styleUrl>#icon-22-nodesc</styleUrl>
+				<Point>
+					<coordinates>100.600932,14.079976,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ด้านหน้า MTEC</name>
+				<styleUrl>#icon-22-nodesc</styleUrl>
+				<Point>
+					<coordinates>100.600889,14.079214,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ด้านหน้า NECTEC</name>
+				<styleUrl>#icon-22-nodesc</styleUrl>
+				<Point>
+					<coordinates>100.600812,14.077939,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ส่วนงานกลาง</name>
+				<styleUrl>#icon-22-nodesc</styleUrl>
+				<Point>
+					<coordinates>100.601278,14.076503,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ทางเข้าอุทยานวิทย์ 2</name>
+				<styleUrl>#icon-22-nodesc</styleUrl>
+				<Point>
+					<coordinates>100.603491,14.07623,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ป้ายรถเมล์หน้า สวทช.</name>
+				<styleUrl>#icon-22-nodesc</styleUrl>
+				<Point>
+					<coordinates>100.60219,14.075944,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>วงเวียนธรรมศาสตร์</name>
+				<styleUrl>#icon-22-nodesc</styleUrl>
+				<Point>
+					<coordinates>100.601614,14.074745,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-22-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-22-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-22-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-22-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-22-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
